@@ -1,0 +1,92 @@
+/*Valores iniciales para el navegador*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*para ajustar el alto y ancho al valor que defino, sin sumar padding,margin,etc.*/
+}
+
+/*Configuración del header*/
+
+.logo_nutri {
+    height: 180px;
+}
+
+.encabezado_centro {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5e3e60;
+}
+
+.menu a:hover {
+    font-weight: bold; 
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #b9d6cf;
+    padding-right: 10px;
+    position:fixed;
+}
+
+/*Configuración del main*/
+
+.main {
+    padding-top: 182px;
+}
+
+.portada {
+    
+}
+
+/*Configuración del footer*/
+
+.footer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #805583;
+    padding: 10px;
+    height: 150px;
+    max-height: 150px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icono_redes {
+    height: 80px;
+    margin: 5px;
+    border: 3px solid #301232;
+    border-radius: 50%;
+}
+
+.icono_redes:hover {
+    height: 100px;
+}
+
+.footer_ubicacion {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dev {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+

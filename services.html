@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SERVICIOS - MB Nutrición</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/iconos/icono_MBnutricion-sin-fondo .png">
   </head>
   <body>
-    <header>
-      <img src="images/iconos/icono MBnutricion.png" alt="logo MB Nutrición" />
-      <div>
+    <header class="encabezado">
+      <a href="index.html"><img class="logo_nutri" src="images/iconos/icono_MBnutricion-sin-fondo .png" alt="logo MB Nutrición" />
+      <div class="encabezado_centro"></a>
         <p>Mayra Boonstra</p>
         <p>Lic. en nutrición</p>
       </div>
-      <nav>
+      <nav class="menu">
         <a href="index.html">Inicio</a>
         <a href="services.html">Servicios</a>
         <a href="contact.html">Contacto</a>
       </nav>
     </header>
 
-    <main>
+    <main class="main">
       <section>
         <h1>Servicios</h1>
         <div>
@@ -85,31 +90,22 @@
       </section>
     </main>
 
-    <footer>
-      <hr />
+    <footer class="footer">
       <div>
-        <!--Luego con css modificar el tamaño de los iconos-->
-        <a href="https://www.facebook.com/Lic.MayraBoonstra" target="_blank"
-          ><img src="images/iconos/icono facebook.png" alt="icono Facebook"
-        /></a>
-        <a href="https://www.instagram.com/nutri.equilibrate" target="_blank"
-          ><img src="images/iconos/icono instagram.png" alt="icono Instagram"
-        /></a>
-        <a
-          href="https://api.whatsapp.com/send?phone=5492915750066"
-          target="_blank"
-          ><img src="images/iconos/icono whatsapp.png" alt="icono Whatsapp"
-        /></a>
-        <a href="mailto:mayraboonstra@gmail.com" target="_blank"
-          ><img
-            src="images/iconos/icono email.png"
-            alt="icono de email"
-            width="130px"
-        /></a>
+        <a href="https://www.facebook.com/Lic.MayraBoonstra" target="_blank">
+          <img class="icono_redes" src="images/iconos/icono facebook.png" alt="icono Facebook"/>
+        </a>
+        <a href="https://www.instagram.com/nutri.equilibrate" target="_blank">
+          <img class="icono_redes" src="images/iconos/icono instagram.png" alt="icono Instagram"/>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5492915750066" target="_blank">
+          <img class="icono_redes" src="images/iconos/icono whatsapp.png" alt="icono Whatsapp"/>
+        </a>
+        <a href="mailto:mayraboonstra@gmail.com" target="_blank">
+          <img class="icono_redes" src="images/iconos/icono email.png" alt="icono de email"/>
+        </a>
       </div>
-      <br /><br /><br /><br /><!--Sacar los espacios cuando trabaje con css-->
-      <p><i>Bahía Blaca, Buenos Aires, Argentina - Mauro Maciel &copy;</i></p>
-      <hr />
+      <p class="footer_ubicacion">Bahía Blanca, Buenos Aires, Argentina - <a href="https://github.com/maumaciel" target="_blank" class="dev">Mauro Maciel</a> &copy;</p>
     </footer>
   </body>
 </html>
