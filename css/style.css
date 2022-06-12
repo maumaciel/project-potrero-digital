@@ -8,23 +8,25 @@
 /*Configuración del header*/
 
 .logo_nutri {
-    height: 180px;
+    height: 120px;
 }
 
 .encabezado_centro {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    position:fixed;
+    left: 41%; /*para centrar en la pantalla, con flex quedaba sobre la izquierda*/
 }
 
 .menu {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    padding-right: 5px;
 }
 
 .menu a {
     text-decoration: none;
     color: #5e3e60;
+    margin-left: 1rem;
 }
 
 .menu a:hover {
@@ -45,11 +47,211 @@
 /*Configuración del main*/
 
 .main {
-    padding-top: 182px;
+    padding-top: 123px;
+    min-height: 100vh;
+   
+}
+/*Configuracion index*/
+
+.imagen_portada {
+   width: 100%;  
 }
 
-.portada {
+.section1 {
+    background-color: #e0d2e1;
+    padding: 1rem;
+    margin-top: -5px;
+}
+
+.sobre_mi {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.imagen_sobre_mi {
+    height: 350px;
+    border: 5px solid #fff;
+    border-radius: 20%;
+}
+
+.titulo {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo2 {
+    font-size: 40px;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto_sobre_mi {
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px;
+    font-family: 'Alata', sans-serif;
+}
+
+.texto_sobre_mi p {
+    padding: 30px;
+}
+
+.section2 {
+    padding: 1rem;
+    background-color: #cfb5d1;
+}
+
+.texto_formacion {
+    text-align: justify;
+    font-size: 30px; 
+    margin: 1rem;
+    font-family: 'Alata', sans-serif;
+}
+
+.texto_formacion li {
+    margin: 1rem;
+}
+
+.contenedor_club {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.escudos {
+    border: 3px solid #4a7068;
+    height: 200px;
+    border-radius: 20%;
+}
+
+
+.descripcion_club {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.section3 {
+    padding: 1rem;
+    background-color: #e0d2e1;
+}
+
+.texto_actualidad {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 150px; 
+    padding-left:150px;
+    margin-top:35px;
+    margin-bottom: 50px;
+    font-family: 'Alata', sans-serif;
+}
+
+/*COnfiguracion services*/
+
+.section_servicios {
+    background-color: #5e3e60;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:rgb(234, 235, 236)
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     
+}
+
+.servicio {
+   background-color: #d3bfd4;
+   width: 500px;
+   height: 710px;
+   border-radius: 10px;
+   padding: 1rem;
+   text-align: center;
+}
+
+.titulo_servicios {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+
+.texto_servicios {
+    font-size: 20px;
+    object-fit: contain;
+    font-family: 'Alata', sans-serif;
+    margin-top: 1rem;
+    color: #000;
+}
+
+.contenedor_img_servicio {
+   overflow: hidden; 
+   max-height: 400px;
+   max-width: 400px;
+   border-radius: 40px;
+}
+
+.img_servicio {
+    height:300px;
+}
+
+/*Configuracion contact*/
+
+.section_contacto{
+    background-color: #e0d2e1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contenedor_atencion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.consultorio {
+    margin: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #cfc9d0;
+}
+
+.titulo3{
+    font-size: 30px;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.texto_atencion {
+    font-size: 20px;
+    object-fit: contain;
+    font-family: 'Alata', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#000;
+}
+
+.contacto_redes {
+    font-size: 20px;
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
 
 /*Configuración del footer*/
@@ -86,7 +288,9 @@
 .dev {
     text-decoration: none;
     color: #fff;
-    
 }
 
 
+li{
+    list-style: none;
+}
