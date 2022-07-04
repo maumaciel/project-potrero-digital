@@ -219,7 +219,7 @@
    overflow: hidden; 
    max-height: 400px;
    max-width: 400px;
-   border-radius: 40px;
+   border-radius: 10px;
    gap:2rem
 }
 
@@ -373,16 +373,29 @@ li {
 
     .sobre_mi {
         flex-direction: column;
+        width: 100%;
+        height: 100%;
     }
 
     .imagen_sobre_mi {
-        height: 200px;    
+        width: 20%;
+        height: 20%;    
     }
 
-    .texto_sobre_mi, .texto_formacion, .texto_actualidad {
-        font-size: 20px;
+    .texto_sobre_mi, .texto_formacion, .texto_actualidad, .texto_atencion {
+        font-size: 15px;
         padding: 0px;
         text-align: justify;
+        
+    }
+
+    .texto_sobre_mi p {
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+
+    .texto_formacion {
+        text-align: start;
     }
 
     .subtitulo_sobre_mi {
@@ -394,8 +407,16 @@ li {
         text-align: center;
     }
 
+    .section2 {
+        padding: 1rem;
+    }
     .section3 {
-        padding: 3rem;
+        padding: 1rem;
+    }
+
+    .texto_formacion li{
+        margin-left: 0px; 
+        margin-right: 0px;
     }
 
     .contenedor_clubes {
@@ -406,6 +427,7 @@ li {
 
     .contenedor_club {
         margin-right: 0px;
+        width: 80%;
     }
 
     .escudos {
@@ -435,7 +457,7 @@ li {
     }
 
     .img_servicio {
-        height: 100%;
+        width: 100%;
     }
 
     /*Contact*/
@@ -443,10 +465,16 @@ li {
     .contenedor_atencion {
         flex-direction: column;
         align-items: center;
+        height: 90%;
     }
 
     .contenedor_atencion_bahia {
         flex-direction: column;
+    }
+
+    .mapa {
+        height: 60%;
+        width: 60%;
     }
 
 
