@@ -1,8 +1,9 @@
 /*Valores iniciales para el navegador*/
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; /*para ajustar el alto y ancho al valor que defino, sin sumar padding,margin,etc.*/
+    box-sizing: border-box;
+    /*para ajustar el alto y ancho al valor que defino, sin sumar padding,margin,etc.*/
 }
 
 /*Configuración del header*/
@@ -14,8 +15,9 @@
 .encabezado_centro {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    position:fixed;
-    left: 41%; /*para centrar en la pantalla, con flex quedaba sobre la izquierda*/
+    position: fixed;
+    left: 41%;
+    /*para centrar en la pantalla, con flex quedaba sobre la izquierda*/
 }
 
 .menu {
@@ -30,7 +32,7 @@
 }
 
 .menu a:hover {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .encabezado {
@@ -41,20 +43,20 @@
     width: 100%;
     background-color: #b9d6cf;
     padding-right: 10px;
-    position:fixed;
+    position: fixed;
 }
 
 /*Configuración del main*/
 
 .main {
     padding-top: 123px;
-    min-height: 100vh;   
+    min-height: 100vh;
 }
 
 /*Configuracion index*/
 
 .imagen_portada {
-   width: 100%;  
+    width: 100%;
 }
 
 .section1 {
@@ -79,28 +81,29 @@
     margin-top: 32px;
     margin-bottom: 32px;
     margin-left: 32px;
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .titulo2 {
-    font-size: 30px;
+    font-size: 28px;
     margin: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .texto_sobre_mi {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 32px;
+    padding: 10px;
     font-family: 'Alata', sans-serif;
 }
 
 .texto_sobre_mi p {
-    padding: 30px;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 .section2 {
@@ -110,7 +113,7 @@
 
 .texto_formacion {
     text-align: justify;
-    font-size: 25px; 
+    font-size: 20px;
     margin: 1rem;
     font-family: 'Alata', sans-serif;
 }
@@ -123,8 +126,9 @@
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    width: 100% ;
+    width: 100%;
 }
+
 .contenedor_club {
     display: flex;
     flex-direction: column;
@@ -134,7 +138,7 @@
     text-align: center;
     margin-right: 50px;
     margin-top: 2rem;
-    
+
 }
 
 .escudos {
@@ -144,12 +148,12 @@
     width: 200px;
     object-fit: fill;
     margin-bottom: 1rem;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
 
 .descripcion_club {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -160,10 +164,10 @@
 
 .texto_actualidad {
     text-align: center;
-    font-size: 25px;
-    padding-right: 150px; 
-    padding-left:150px;
-    margin-top:35px;
+    font-size: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 35px;
     margin-bottom: 50px;
     font-family: 'Alata', sans-serif;
 }
@@ -174,7 +178,8 @@
     background-color: #5e3e60;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    color:rgb(234, 235, 236)
+    color: rgb(234, 235, 236);
+    width: 100%;
 }
 
 .servicios {
@@ -184,20 +189,20 @@
     gap: 1rem;
     margin-bottom: 20px;
     margin-left: 10px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .servicio {
-   background-color: #d3bfd4;
-   width: 500px;
-   height: 710px;
-   border-radius: 10px;
-   padding: 1rem;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content:flex-start;
+    background-color: #d3bfd4;
+    width: 500px;
+    height: 710px;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .titulo_servicios {
@@ -216,20 +221,20 @@
 }
 
 .contenedor_img_servicio {
-   overflow: hidden; 
-   max-height: 400px;
-   max-width: 400px;
-   border-radius: 10px;
-   gap:2rem
+    overflow: hidden;
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 10px;
+    gap: 2rem
 }
 
 .img_servicio {
-    height:300px;
+    height: 300px;
 }
 
 /*Configuracion contact*/
 
-.section_contacto{
+.section_contacto {
     background-color: #e0d2e1;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -244,10 +249,10 @@
 
 }
 
-.contenedor_atencion_bahia {
-   display: flex;
-
+.contenedor_atencion_2 {
+    display: flex;
 }
+
 
 .consultorio {
     margin: 10px;
@@ -255,36 +260,36 @@
     padding: 10px;
     border-radius: 10px;
     background-color: #cfc9d0;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.titulo3{
+.titulo3 {
     font-size: 30px;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .texto_atencion {
-    font-size: 20px;
+    font-size: 19px;
     object-fit: contain;
     font-family: 'Alata', sans-serif;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color:#000;
+    color: #000;
 }
 
 .contacto_redes {
     font-size: 20px;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Configuración del footer*/
 
 .footer {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #805583;
@@ -329,6 +334,7 @@ li {
 /*media queries*/
 
 @media (max-width: 1023px) {
+
     /*header*/
     .encabezado {
         flex-direction: column;
@@ -337,13 +343,14 @@ li {
     .logo_nutri {
         height: 60px;
     }
+
     .encabezado_centro {
         display: none;
     }
 
     /*footer*/
     .footer {
-        justify-content:center;
+        justify-content: center;
         flex-direction: column;
     }
 
@@ -361,7 +368,7 @@ li {
 
     /*main*/
     .main {
-        padding-top: 94px; 
+        padding-top: 94px;
     }
 
     .titulo {
@@ -369,6 +376,7 @@ li {
         text-align: center;
         margin-left: 0px;
     }
+
     /*index*/
 
     .sobre_mi {
@@ -380,18 +388,21 @@ li {
     .imagen_sobre_mi {
         width: 35%;
         height: 35%;
-        border: solid 2px #fff;    
+        border: solid 2px #fff;
     }
 
-    .texto_sobre_mi, .texto_formacion, .texto_actualidad, .texto_atencion {
+    .texto_sobre_mi,
+    .texto_formacion,
+    .texto_actualidad,
+    .texto_atencion {
         font-size: 15px;
         padding: 0px;
         text-align: justify;
-        
+
     }
 
     .texto_sobre_mi p {
-        padding-left: 0px; 
+        padding-left: 0px;
         padding-right: 0px;
     }
 
@@ -402,7 +413,7 @@ li {
     .subtitulo_sobre_mi {
         text-align: center;
     }
-    
+
     .titulo2 {
         font-size: 30px;
         text-align: center;
@@ -411,19 +422,20 @@ li {
     .section2 {
         padding: 1rem;
     }
+
     .section3 {
         padding: 1rem;
     }
 
-    .texto_formacion li{
-        margin-left: 0px; 
+    .texto_formacion li {
+        margin-left: 0px;
         margin-right: 0px;
     }
 
     .contenedor_clubes {
         flex-direction: column;
         align-items: center;
-        margin-top:-50px;
+        margin-top: -50px;
     }
 
     .contenedor_club {
@@ -440,6 +452,7 @@ li {
     .descripcion_club {
         font-size: 12px;
     }
+
     /*Services*/
 
     .servicios {
@@ -456,7 +469,7 @@ li {
         font-size: 12px;
     }
 
-    .contenedor_img_servicio{
+    .contenedor_img_servicio {
         height: 150px;
         width: 150px;
     }
@@ -474,7 +487,7 @@ li {
         height: 90%;
     }
 
-    .contenedor_atencion_bahia {
+    .contenedor_atencion_2 {
         flex-direction: column;
     }
 
@@ -484,6 +497,6 @@ li {
     }
 
 
-    
-   
+
+
 }
