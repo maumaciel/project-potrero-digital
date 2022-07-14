@@ -13,7 +13,7 @@
 }
 
 .encabezado_centro {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
     position: fixed;
     left: 41%;
@@ -21,7 +21,7 @@
 }
 
 .menu {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 25px;
 }
 
@@ -82,13 +82,14 @@
     margin-bottom: 32px;
     margin-left: 32px;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .titulo2 {
     font-size: 28px;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .texto_sobre_mi {
@@ -98,7 +99,7 @@
     flex-direction: column;
     text-align: center;
     padding: 10px;
-    font-family: 'Alata', sans-serif;
+    font-family: "Alata", sans-serif;
 }
 
 .texto_sobre_mi p {
@@ -115,7 +116,7 @@
     text-align: justify;
     font-size: 20px;
     margin: 1rem;
-    font-family: 'Alata', sans-serif;
+    font-family: "Alata", sans-serif;
 }
 
 .texto_formacion li {
@@ -138,7 +139,6 @@
     text-align: center;
     margin-right: 50px;
     margin-top: 2rem;
-
 }
 
 .escudos {
@@ -151,10 +151,9 @@
     margin-top: 1rem;
 }
 
-
 .descripcion_club {
     font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .section3 {
@@ -169,7 +168,7 @@
     padding-left: 150px;
     margin-top: 35px;
     margin-bottom: 50px;
-    font-family: 'Alata', sans-serif;
+    font-family: "Alata", sans-serif;
 }
 
 /*Configuracion services*/
@@ -215,7 +214,7 @@
 .titulo_servicios {
     font-size: 30px;
     margin-bottom: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     color: #000;
     font-weight: bold;
 }
@@ -223,7 +222,7 @@
 .texto_servicios {
     font-size: 16px;
     object-fit: contain;
-    font-family: 'Alata', sans-serif;
+    font-family: "Alata", sans-serif;
     margin-top: 1rem;
     color: #000;
 }
@@ -233,7 +232,7 @@
     max-height: 400px;
     max-width: 400px;
     border-radius: 10px;
-    gap: 2rem
+    gap: 2rem;
 }
 
 .img_servicio {
@@ -254,13 +253,11 @@
     justify-content: space-evenly;
     align-items: flex-start;
     text-align: center;
-
 }
 
 .contenedor_atencion_2 {
     display: flex;
 }
-
 
 .consultorio {
     margin: 10px;
@@ -276,13 +273,13 @@
 .titulo3 {
     font-size: 30px;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .texto_atencion {
     font-size: 19px;
     object-fit: contain;
-    font-family: 'Alata', sans-serif;
+    font-family: "Alata", sans-serif;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #000;
@@ -291,7 +288,7 @@
 .contacto_redes {
     font-size: 20px;
     margin: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*Configuración del footer*/
@@ -326,14 +323,13 @@
 
 .footer_ubicacion {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .dev {
     text-decoration: none;
     color: #fff;
 }
-
 
 li {
     list-style: none;
@@ -345,22 +341,21 @@ p {
     margin-bottom: 0;
 }
 
-body{
+body {
     line-height: 1.3;
 }
+
 /*Cards*/
 .card {
     color: #000;
     position: unset;
     margin: 1rem;
     background-color: #d3bfd4;
-    
 }
 
-.card-img-top{
+.card-img-top {
     height: 200px;
 }
-
 
 /*media queries*/
 
@@ -429,7 +424,6 @@ body{
         font-size: 15px;
         padding: 0px;
         text-align: justify;
-
     }
 
     .texto_sobre_mi p {
@@ -534,8 +528,4 @@ body{
     .contacto_redes {
         text-align: center;
     }
-
-
-
-
 }
